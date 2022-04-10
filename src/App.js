@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import StateHook from './components/StateHook';
+import RefHook from './components/RefHook';
+import MemoHook from './components/MemoHook';
+// import Counter from './components/context/Counter';
+import Reducer from './components/reducer/Reducer';
+import ReducerContact from './components/reducer/ReducerContact';
+import Counter from './components/customHook/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <StateHook /> */}
+      {/* <RefHook/> */}
+      {/* <MemoHook/> */}
+      {/* <Counter></Counter> */}
+      {/* <Reducer /> */}
+      {/* <ReducerContact /> */}
+      <Counter />
     </div>
   );
 }
